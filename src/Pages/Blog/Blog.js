@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Blog = () => {
     return (
-        <div id='blog' className='mx-12 bg-gray-100 py-4 rounded-xl'> 
+        <div id='blog' className='lg:mx-12 mx-5 bg-gray-100 py-4 rounded-xl'> 
             <div>
                 <h1 className=''>LAST NEWS</h1>
                 <h1 className='text-5xl font-bold'>BLOG</h1> 

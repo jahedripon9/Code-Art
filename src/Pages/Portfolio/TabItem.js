@@ -4,8 +4,8 @@ const Tabs = ({ color }) => {
   const [openTab, setOpenTab] = React.useState(1);
   return (
     <>
-      <div id="portfolio" className="flex flex-wrap mx-10">
-        <div className="w-full mx-10">
+      <div id="portfolio" className="flex flex-wrap lg:mx-10 mx-2">
+        <div className="w-full lg:mx-10 mx-5">
           <ul
             className="flex mb-0 list-none flex-wrap pt-3 pb-4 flex-row "
             role="tablist"
