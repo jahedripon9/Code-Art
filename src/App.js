@@ -8,7 +8,7 @@ import TabItem from './Pages/Portfolio/TabItem'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-slate-50">
       <BrowserRouter>
       <Header></Header>
       <Routes>
