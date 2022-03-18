@@ -6,9 +6,9 @@ import Portfolio from '../Portfolio/Portfolio';
 
 const Home = () => {
     return (
-        <div>
+        <div className=''>
             {/* <Header></Header> */}
-            <img className='' src="https://i.ibb.co/d4tYwp0/image.png" alt="" />
+            <img className='w-full h-96 rounded-2xl ' src="https://i.ibb.co/d4tYwp0/image.png" alt="" />
             <Portfolio></Portfolio>
             <Blog></Blog>
             <About></About>
