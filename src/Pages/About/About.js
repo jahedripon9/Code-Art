@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import 'animate.css';
 
 const About = () => {
     return (
@@ -15,6 +15,8 @@ const About = () => {
                     <img class="object-cover object-center rounded-lg" alt="hero" src="https://i.ibb.co/zhRQH8q/Jahad-Master.jpg"/>
                     </div>
                     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900 lg:ml-10 animate__zoomIn">Jahed Ahmed Ripon   
+                    </h1>
                     
                     <p class="mb-4 leading-relaxed text-lg mx-12">I'm a Freelancer Front-End Developer with over 2 years of experience. I'm from Sylhet, Bangladesh. I code and create web elements for amazing people around the world. I like work with new people. New people are new experiences.</p>
                      <a className=' lg:ml-8' target='_blank' href="https://jahedportfolio.netlify.app/"><button type="button" class="py-2 px-4   mx-1  bg-green-600 hover:bg-green-700 focus:ring-green-500 focus:ring-offset-green-200 text-white w-34 transition ease-in duration-100 text-center text-xm font-bold  shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-full my-2"> My Portfolio</button></a>
