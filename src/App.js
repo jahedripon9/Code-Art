@@ -4,6 +4,7 @@ import './App.css';
 import Home from "./Pages/Home/Home";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Header from './Pages/Shard/Header'
+// import Footer from './Pages/Shard/Footer'
 import TabItem from './Pages/Portfolio/TabItem'
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
         <Route path="about" element={<Portfolio />} />
         <Route path="about" element={<TabItem />} />
       </Routes>
+      
       </BrowserRouter>
+      {/* <Footer></Footer> */}
     </div>
   );
 }

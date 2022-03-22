@@ -1,7 +1,9 @@
 import React from 'react';
 import About from '../About/About';
 import Blog from '../Blog/Blog';
+import Contact from '../Contact/Contact';
 import Portfolio from '../Portfolio/Portfolio';
+import Footer from '../Shard/Footer';
 // import Header from '../Shard/Header'
 
 const Home = () => {
@@ -12,6 +14,8 @@ const Home = () => {
             <Portfolio></Portfolio>
             <Blog></Blog>
             <About></About>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
